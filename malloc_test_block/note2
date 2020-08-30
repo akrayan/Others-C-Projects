@@ -1,0 +1,59 @@
+SI list == NULL
+{
+malloc empty
+si il reste de la place on crée un nouveau maillon
+}
+
+Si la liste a deja été alouée
+{
+parcours la liste pour voir si il ya de la place(size + metadata + 1)
+	 ==> soit on trouve un maillon vide de pile la taille(sans la metadata)
+	 ==> soit y a plus on split le bloc a nouveau(et assez pour la metadata)
+	 ==> soit on est au dernier elemennt si il est libre
+	     ==>si il reste de la place on ajoute()
+	    ==>realouer
+}
+
+
+Fonction => split
+
+soit on realou
+
+soit on ajoute un maillon sur de memoire libre
+
+soit on ajoute au millieu
+
+soit on ajoute a la fin
+
+soit on modifie un element
+
+
+split entre deux maillon
+{
+modifie maillon
+ajoute au milieu (si possible)
+}
+
+split a la fin
+{
+modifie
+ajoute a la fin (si possible)
+}
+
+realou
+{
+verifie si le last free
+ajoute a la fin ou modifie le last
+realou
+}
+
+free
+--------------------------------------------------------------------------------
+
+fuison avec le bloc suivant
+
+fusion avec le bloc precedant
+
+suprimer le premier element (si il est free)
+
+suprimer le dernier element (si il est free)

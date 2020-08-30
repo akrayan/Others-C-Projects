@@ -1,0 +1,12 @@
+liste simple avec control last
+
+static adresse premier block
+
+nblock = (adresse du pointeur -  adresse pblock)  / Pagesize
+adresse nblock = (nblock * Pagesize) + adresse pblock
+
+
+adresse a garder :
+addresse pblock
+liste des malloc
+last

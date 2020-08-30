@@ -1,0 +1,11 @@
+/*
+** my_macroABS.h for my_macroABS.h in /home/Rayan/ex_01
+** 
+** Made by AKKACHE Kaci
+** Login   <Rayan@epitech.net>
+** 
+** Started on  Thu Oct  8 09:57:36 2015 AKKACHE Kaci
+** Last update Thu Oct  8 10:16:56 2015 AKKACHE Kaci
+*/
+
+#define ABS(Value)

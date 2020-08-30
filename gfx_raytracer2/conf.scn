@@ -1,0 +1,102 @@
+#SPHERE#
+x -50;
+y 100;
+z 100;
+type 1;
+r 100;
+b 0;
+color BLUE;
+obj
+##
+
+#SPHERE#
+x 75;
+y 100;
+z 100;
+type 1;
+r 100;
+b 0;
+color RED;
+obj
+##
+
+#PARABOLOIDE#
+x -200;
+y 0;
+z 100;
+r 100;
+type 4;
+i 10;
+b 1;
+ot ./asset/b.png;
+os 1;
+obj
+##
+
+#PLAN#
+y 0;
+x 0;
+z 500;
+type 2;
+r 1;
+ol 1;
+olx 500;
+oly -1;
+olz 300;
+color GREEN;
+ot ./asset/b.png;
+os 10;
+op
+obj
+##
+
+#PLAN#
+y 0;
+x -100;
+z 500;
+type 2;
+r 1;
+ol 0;
+olx 500;
+oly -1;
+olz 300;
+color GREEN;
+ot ./asset/g.png;
+os 10;
+op
+obj
+##
+
+#CUBE#
+x -300;
+y 0;
+z -1000;
+type 5;
+r 200;
+s 13;
+pt ./asset/t/t_u.png;
+pobj1
+pt ./asset/t/t_u.png;
+pobj2
+pt ./asset/t/t_s.png;
+pobj3
+pt ./asset/t/t_s.png;
+pobj4
+pt ./asset/t/t_f.png;
+pobj5
+pt ./asset/t/t_s.png;
+pobj6
+obj
+##
+
+#CYLINDRE#
+x 100;
+y 200;
+z 100;
+type 3;
+r 10;
+i 2;
+b 1;
+color TEAL;
+obj
+##

@@ -1,0 +1,16 @@
+SI list == NULL
+{
+malloc empty
+si il reste de la place on crée un nouveau maillon
+}
+
+Si la liste a deja été alouée
+{
+parcours la liste pour voir si il ya de la place(size + metadata + 1)
+	 ==> soit on trouve un maillon vide de pile la taille(sans la metadata)
+	 ==> soit y a plus on split le bloc a nouveau(et assez pour la metadata)
+	 ==> soit on est au dernier elemennt si il est libre
+	     ==>si il reste de la place on ajoute()
+	 else
+		==>realouer
+}

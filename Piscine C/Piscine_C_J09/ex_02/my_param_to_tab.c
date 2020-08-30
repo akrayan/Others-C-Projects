@@ -1,0 +1,12 @@
+/*
+** my_param_to_tab.c for my_param_to_tab.c in /home/Rayan/Piscine_C_J09
+** 
+** Made by AKKACHE Kaci
+** Login   <Rayan@epitech.net>
+** 
+** Started on  Thu Oct  8 11:43:19 2015 AKKACHE Kaci
+** Last update Thu Oct  8 14:16:19 2015 AKKACHE Kaci
+*/
+
+struct	s_stock_par *my_param_to_tab(int ac, char **av)
+{

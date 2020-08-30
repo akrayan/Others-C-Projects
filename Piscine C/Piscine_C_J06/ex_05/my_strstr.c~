@@ -1,0 +1,26 @@
+/*
+** my_strstr.c for my_strstr.c in /home/Rayan/Piscine_C_J06/ex_05
+** 
+** Made by AKKACHE Kaci
+** Login   <Rayan@epitech.net>
+** 
+** Started on  Mon Oct  5 16:25:54 2015 AKKACHE Kaci
+** Last update Mon Oct  5 22:45:20 2015 AKKACHE Kaci
+*/
+
+char	*my_strstr(char *str, char *to_find)
+{
+  int	i;
+  int	j;
+
+  i = 0;
+  j = 0;
+  while (str[i] != '\0')
+    {
+      if (str[i] == to_find[j])
+	{
+
+	}     
+      i = i + 1;
+    }
+}

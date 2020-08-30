@@ -1,0 +1,47 @@
+/*
+** my_revstr.c for my_revstr.c in /home/Rayan/Piscine_C_J06/ex_04
+** 
+** Made by AKKACHE Kaci
+** Login   <Rayan@epitech.net>
+** 
+** Started on  Mon Oct  5 12:03:07 2015 AKKACHE Kaci
+** Last update Mon Oct  5 16:03:06 2015 AKKACHE Kaci
+*/
+
+int my_strlen(char *str)
+{
+  int i;
+
+  i = 0;
+  while (str[i] != '\0'😉
+    {
+      i = i + 1;
+    }
+    return (i);
+    }
+
+  int my_swapp(char *a, char *b)
+  {
+    char count;
+
+    count = *a;
+    *a = *b;
+    *b = count;
+  }
+
+  char *my_revstr(char *str)
+  {
+    int x;
+    int y;
+
+    x = my_strlen(str) - 1;
+    y = 0;
+    while (x > y)
+      {
+	my_swapp(&str[x], &str[y]);
+	x = x - 1;
+	y = y + 1;
+      }
+    return (str);
+  }
+}

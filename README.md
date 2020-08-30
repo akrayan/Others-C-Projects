@@ -1,6 +1,6 @@
 # Others C Projects
 
-**Short Description**
+**Short Description**  
 This is my olds training or student projects in C.
 
 **Languages and libs**
